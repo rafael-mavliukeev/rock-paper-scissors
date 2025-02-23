@@ -1,12 +1,43 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <script src="script.js"></script>
-    </head>
-    <body>
-        <h1>Hello</h1>
-    </body>
-    </html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Камень-Ножницы-Бумага</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="score">
+        <span id="player-score">0</span>
+        <span>:</span>
+        <span id="computer-score">0</span>
+    </div>
+    <div id="main">
+
+            <div class="playing-zone">
+                <p>Вы</p>
+                <div class="player-buttons">
+                    <button id="rock">Камень</button>
+                    <button id="paper">Бумага</button>
+                    <button id="scissors">Ножницы</button>
+                </div>
+                <div class="choice-picture">
+                    <img id="player-choice-picture" src="./pictures/rock.png">
+                </div>
+            </div>
+
+            <div class="playing-zone">
+                <p>Компьютер</p>
+
+                <div class="choice-picture">
+                    <img id="computer-choice-picture" src="./pictures/rock.png">
+                </div>
+            </div>
+
+    </div>
+</body>
+
+</html>

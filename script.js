@@ -42,4 +42,3 @@ function playGame () {
     console.log(playRound(humanChoice, computerChoice))
 }
 
-playGame()
