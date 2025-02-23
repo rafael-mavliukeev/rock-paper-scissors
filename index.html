@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Камень-Ножницы-Бумага</title>
-    <script src="script.js"></script>
+    <script defer src="script.js"></script>
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -19,10 +19,13 @@
 
             <div class="playing-zone">
                 <p>Вы</p>
-                <div class="player-buttons">
+                <div class="choice-buttons">
                     <button id="rock">Камень</button>
                     <button id="paper">Бумага</button>
                     <button id="scissors">Ножницы</button>
+                </div>
+                <div class="go-button">
+                    <button id="go">Играть!</button>
                 </div>
                 <div class="choice-picture">
                     <img id="player-choice-picture" src="./pictures/rock.png">

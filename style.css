@@ -49,3 +49,11 @@ button {
     background: #eee;
     padding: 7px 16px;
   }
+
+  #go {
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    background: #0e502425;
+    padding: 7px 16px;
+  }
